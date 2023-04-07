@@ -14,8 +14,8 @@ public class D02_loginStepDef {
     }
     @When("user login with valid credentials")
     public void loginWithValidCredentials(){
-        login.setEmailTextField("ahmedgamalalden@gmail.com");
-        login.setPasswordTextField("123456789");
+        login.setEmailTextField("test@example.com");
+        login.setPasswordTextField("P@ssw0rd");
         login.clickLogInButton();
     }
     @Then("user login to the system successfully")
